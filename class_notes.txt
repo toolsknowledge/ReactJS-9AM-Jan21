@@ -1,0 +1,84 @@
+						JavaScript
+
+	- JavaScript is the Scripting language.
+
+	- JavaScript given by NetScape.
+
+	- Current Version of JavaScript is ES11 (2020).
+
+	- ES Stands for ECMA Script.
+
+	- JavaScript, used to build the Applications like
+		
+		Angular,
+		React,
+		Node,
+		VueJS
+
+	- we will save the JavaScript files with ".js" extension.
+
+	- we will execute JavaScript in two ways.
+
+		1) node engine
+
+		2) intrepreter
+
+	- intrepreter is the tool, present in Browser Engines.
+
+	- JavaSript is the Synchronous By Default.
+
+	- Vendor Provides, so many Predefined Objects like
+
+		window
+
+		document
+
+		Date
+
+		Time
+
+		----
+		----
+		----, so we can call JavaScript is the Object Based Scripting Language.
+
+
+	- VisualStudioCode is recomended IDE, to build the JavaScript Applications.
+
+	- VisualStudioCode IDE, provided by Microsoft and it is a open source.
+
+1) download and install NodeJS
+
+	website : https://nodejs.org/en/download/
+
+	file    : node-v14.15.4-x64.msi
+
+
+2) download and install VisualStudioCode
+
+	website : https://code.visualstudio.com/docs/?dv=win
+
+	file    : VSCodeUserSetup-x64-1.52.1.exe
+
+
+Execution of JavaScript
+=======================
+
+	> node demo.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
