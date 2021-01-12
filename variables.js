@@ -127,6 +127,48 @@ for(var k in obj){
     console.log( obj[k] );
 }
 
+//bigint
+//range -2^63 to 2^63-1
+//we will represent bigint number with suffix "n"
+//8bytes
+var my_bigint = 123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789n;
+console.log(my_bigint);
+
+//Symbol
+//Symbol data type introduced in ES6
+//Symbol datatype, used to provide the secuirity to the data
+var my_data = Symbol(100);
+var my_data1 = Symbol("Hello");
+console.log( my_data, my_data1 );     //Symbol(100) Symbol(Hello)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
