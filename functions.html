@@ -1,0 +1,191 @@
+<!--
+    function
+    ========
+        - functions are used to reuse the business logic.
+
+        - we will define the functions by using "function" keyword.
+
+        - we have following types of functions upto "ES11"
+
+                1) Named Functions
+
+                2) Anonymous Functions / Arrow Functions / Lamda Functions / CallBack Functions / Fat Arrow Functions
+
+                3) Rest Parameters in Functions
+
+                4) Default Parameters in Functions
+
+                5) Constructor Functions
+
+                6) Generators
+
+                7) IIFE  (Immidiate Invokable Functional Expressions)
+
+                8) Optional Parameters in Functions
+
+    Named Functions
+    ===============
+
+        - The function with the particular name called as Named Function.
+
+    Syntax.
+    ------
+        //definition
+        function functionname(parameters){
+            //business logic
+        };
+
+        //call the function
+        functionname(arguments);
+-->
+
+<!--
+    <script>
+        function fun_one(){
+            return "welcome to named functions";
+        };
+
+        console.log( fun_one );      //function definition
+        console.log( fun_one() );    //output
+    </script>
+-->
+
+
+<!--
+<script>
+    function fun_one(param1,param2,param3){
+        console.log( param1, param2, param3 );
+    };
+    fun_one("Angular","NodeJS","MongoDB");         //Angular NodeJS MongoDB
+    fun_one("ReactJS","Deno","MySQL");             //ReactJS Deno MySQL
+    fun_one("VueJS","NodeJS","SQLServer");         //VueJS NodeJS SQLServer
+    fun_one();                                     //undefined undefined undefined
+</script>
+-->
+
+<!--
+<script>
+    function fun_one(){
+        return fun_two;
+    };
+    function fun_two(){
+        return "Hello";
+    };
+    console.log( fun_one()() );     //Hello
+</script>
+-->
+
+
+<!--
+<script>
+     var my_arr = [];
+
+     function fun_one(){
+        return "Hello";
+     };
+
+    for(var i=0;i<5;i++){
+        my_arr.push( fun_one );
+    };
+
+    console.log( my_arr.length );   //5
+
+    for(var j=0;j<my_arr.length;j++){
+        console.log( my_arr[j]() );
+    };
+
+</script>
+-->
+
+
+
+<script>
+    function fun_one(param1){
+        console.log( param1() );
+    };
+
+    function fun_two(){
+        return "Hello";
+    };
+
+    fun_one( fun_two );     //Hello
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
