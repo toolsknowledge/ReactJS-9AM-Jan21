@@ -98,7 +98,7 @@
 -->
 
 
-
+<!--
 <script>
     function fun_one(param1){
         console.log( param1() );
@@ -110,6 +110,163 @@
 
     fun_one( fun_two );     //Hello
 </script>
+-->
+
+
+
+<!--
+    The function without name called as Anonymous function.
+
+    Anonymous functions also called as arrow functions/fat arrow functions/lamda functions/callback functions.
+
+    Syntax
+    ======
+    
+    //function definition
+    var/let/const variablename = (parameters)=>{
+        //business logic
+    };
+
+    //calling the function
+    variablename(arguments)
+-->
+
+<!--
+<script>
+    let fun_one = ()=>{
+        return "Hello";  
+    };
+    console.log( fun_one );
+    console.log( fun_one() );
+</script>
+-->
+
+<!--
+<script>
+    let my_fun = (param1,param2,param3)=>{
+        console.log(param1,param2,param3);
+    };
+    my_fun("Angular","NodeJS","MongoDB");     //Angular NodeJS MongoDB
+    my_fun("ReactJS","Deno","MySQL");         //ReactJS Deno MySQL
+    my_fun("VueJS","NodeJS","SQLServer");     //VueJS NodeJS SQLServer
+</script>
+-->
+<!--
+<script>
+   let my_fun = ()=>{
+       return ()=>{
+         return "Hello";
+       };
+   }; 
+   console.log( my_fun()() );     //Hello
+</script>
+-->
+
+
+<script>
+    let networkCall = (param1,param2)=>{
+        console.log( param1(), param2() );
+    };
+    networkCall(()=>{
+        return "Success";
+    },()=>{
+        return "Error";
+    });     //Success Error
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
