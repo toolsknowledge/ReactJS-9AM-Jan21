@@ -540,6 +540,8 @@
     console.log( cursor.next() );
 </script>
 -->
+
+<!--
 <script>
     function *fun_one(){
         yield "Hello_1";
@@ -552,6 +554,94 @@
         console.log( cursor.next() );
     };
 </script>
+-->
+
+
+<!--
+    IIFE
+    ====
+        Immidiate Invokable Functional Expressions
+        ES9
+        IIFE also called as Self Invokable Functions
+        
+        Syntax:
+            ((parameters)=>{
+                //business logic
+            })(arguments);
+-->
+
+
+<!--
+    <script>
+        (()=>{
+            console.log( "Welcome to IIFE" );    //Welcome to IIFE
+        })()
+    </script>
+-->
+
+<!--
+<script>
+    ((param1,param2,param3)=>{
+        console.log( param1, param2, param3 );
+    })("ReactJS","NodeJS","MongoDB");            //ReactJS NodeJS MongoDB
+</script>
+-->
+
+<!--
+<script>
+    let res = (()=>{
+        return "Hello";
+    })()
+    console.log(res);       //Hello
+</script>
+-->
+
+
+<!--
+    Optional Parameters in Functions
+
+    while calling the functions few parameters are "optional".
+
+    optional parameters we will represent with "?"
+
+    optional parameters introduced in "ES6"
+
+    optional parameters will work only in "TypeScript" Environment.
+
+    TypeScript is the Programming Language.
+
+    TypeScript is the Superset of JavaScript.
+
+    TypeScript introduced by Microsoft.
+
+    TypeScript used to build the Angular,React,VueJS,NodeJS,....
+
+    we will save the TypeScript files with ".ts" extension.
+
+    conversion of TypeScript to Equalent JavaScript called as Transpilation.
+
+    > tsc optional.ts   => optional.js
+
+    > node optional.js
+
+    we will install TypeScript by using following command.
+
+        > npm install -g typescript
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
